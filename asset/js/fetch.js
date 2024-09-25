@@ -6,7 +6,7 @@ const products = [
     "name":"Beds and Mattresses",
     "price": 150,
     "rating": 4,
-    "img": "asset/img/Furniture/beds1.jpg"
+    "img": "asset/img/Furniture/beds4.jpg"
   },
   {
     "id":"2",
@@ -14,7 +14,7 @@ const products = [
     "name":"Beds and Mattresses",
     "price": 500,
     "rating": 4,
-    "img": " asset/img/furniture/beds/2.jpg"
+    "img": " asset/img/furniture/beds/8.jpg"
   },
   {
     "id":"3",
