@@ -12,9 +12,9 @@ const products = [
     "id":"2",
     "type":"Furniture",
     "name":"Beds and Mattresses",
-    "price": 500,
-    "rating": 4,
-    "img": " asset/img/furniture/beds/2.jpg"
+    "price": 300,
+    "rating": 5,
+    "img": "asset/img/Furniture/beds2.jpg"
   },
   {
     "id":"3",
@@ -354,183 +354,9 @@ const products = [
   {
     "id":"44",
     "type":"Bathroom",
-<<<<<<< HEAD
     "name":"Mirrors and Medicine Cabinets",
     "price": 600,
     "rating": 3,
     "img": "asset/img/bathroom/MEDICINE_CABINETS2.jpg"
   }
 ]
-=======
-    "name":"Toilets and Bidets",
-    "price": 122,
-    "rating": 5,
-    "img": " asset/img/bathroom/toilets/9.jpg"
-  },
-   // Toilets and Bidets end
-   {
-    "id":"1",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price":230,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/1.jpeg"
-  },
-  {
-    "id":"2",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 113,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/2.jpg"
-  },
-  {
-    "id":"3",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 140,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/3.jfif"
-  },
-  {
-    "id":"4",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 127,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/4.jfif"
-  },
-  {
-    "id":"5",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 124,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/5.jfif"
-  },
-  {
-    "id":"6",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 241,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/6.jfif"
-  },
-  {
-    "id":"7",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 56,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/7.jfif"
-  },
-  {
-    "id":"8",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 29,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/8.jfif"
-  },
-  {
-    "id":"9",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 123,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/9.jfif"
-  },
-  {
-    "id":"10",
-    "type":"Bathroom",
-    "name":"Bathroom Sinks",
-    "price": 152,
-    "rating": 4,
-    "img": " asset/img/bathroom/bathroom/10.jfif"
-  },
-  
-    // Bathroom Sinks end
-    // Mirrors and Medicine start
-{
-  "id":"1",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 175,
-  "rating": 5,
-  "img": " asset/img/bathroom/mirror/1.jfif"
-},
-{
-  "id":"2",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 185,
-  "rating": 4,
-  "img": " asset/img/bathroom/mirror/2.jfif"
-},
-{
-  "id":"3",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 123,
-  "rating": 3,
-  "img": " asset/img/bathroom/mirror/3.jfif"
-},
-{
-  "id":"4",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 120,
-  "rating": 4,
-  "img": " asset/img/bathroom/mirror/4.jfif"
-},
-{
-  "id":"5",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 146,
-  "rating": 4,
-  "img": " asset/img/bathroom/mirror/5.jfif"
-},
-{
-  "id":"6",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 127,
-  "rating": 5,
-  "img": " asset/img/bathroom/mirror/6.jfif"
-},
-{
-  "id":"7",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 271,
-  "rating": 4,
-  "img": " asset/img/bathroom/mirror/7.jfif"
-},
-{
-  "id":"8",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 125,
-  "rating": 3,
-  "img": " asset/img/bathroom/mirror/8.jfif"
-},
-{
-  "id":"9",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 170,
-  "rating": 2,
-  "img": " asset/img/bathroom/mirror/9.jfif"
-},
-{
-  "id":"10",
-  "type":"Bathroom",
-  "name":"Mirrors and Medicine",
-  "price": 120,
-  "rating": 4,
-  "img": " asset/img/bathroom/mirror/10.jfif"
-}
-  // Mirrors and Medicine end
-]
->>>>>>> 6d9d3cda0a4dfbdb580469c940ff283f6f054830
