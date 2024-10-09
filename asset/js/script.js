@@ -1,24 +1,31 @@
-function addToCart(id, name, price, quantity) {
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+function addToCart(productId) {
+    const selectedProduct = products.find(product => product.id === productId);
+    if (!selectedProduct) {
+      console.error("Product not found");
+      return;
+    }
   
-  // Check if the product is already in the cart
-  const existingProduct = cart.find(item => item.id === id);
-
-  if (existingProduct) {
-      // Increase the quantity if it already exists in the cart
-      existingProduct.quantity += 1; // Add 1 to the existing quantity
-  } else {
-      // Add new product to the cart
-      cart.push({ id, name, price: price.toString(), quantity: 1 }); // Start quantity at 1
+    // Retrieve or initialize the cart
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+  
+    // Check if the product is already in the cart
+    const existingProduct = cart.find(item => item.id === productId);
+    if (existingProduct) {
+      existingProduct.quantity += 1; // Increment quantity
+    } else {
+      // Add new product with initial quantity of 1
+      cart.push({ ...selectedProduct, quantity: 1 });
+    }
+  
+    // Save the updated cart back to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+  
+    // Debugging: Log the cart contents after adding the product
+    console.log('Cart after adding product:', JSON.parse(localStorage.getItem('cart')));
   }
-
-  // Save the updated cart to localStorage
-  localStorage.setItem("cart", JSON.stringify(cart));
-  updateHeader(); // Update cart quantity in header
-
-  // Show a message that the product was added
-  alert(`${name} added to cart!`);
-}
+  
+  // Call this function when a user clicks the "Add to Cart" button for a product
+  
 
 function renderProducts(filteredProducts) {
   const productList = document.getElementById('productList');

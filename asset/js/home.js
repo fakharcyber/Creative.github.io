@@ -1,42 +1,42 @@
 const products = [
     {
         "id": "1",
-        "type": "furniture",
+        "type": "Furniture",
         "name": "Beds and Mattresses",
         "price": 150,
         "img": "asset/img/Furniture/beds1.jpg"
     },
     {
         "id": "2",
-        "type": "furniture",
+        "type": "Furniture",
         "name": "Beds and Mattresses",
         "price": 300,
         "img": "asset/img/Furniture/beds2.jpg"
     },
     {
         "id": "3",
-        "type": "furniture",
+        "type": "Furniture",
         "name": "Sofas and Couches",
         "price": 600,
         "img": "asset/img/Furniture/Sofa.jpg"
     },
     {
         "id": "4",
-        "type": "furniture",
+        "type": "Furniture",
         "name": "Chairs and Recliners",
         "price": 600,
         "img": "asset/img/Furniture/chair1.webp"
     },
     {
         "id": "5",
-        "type": "furniture",
+        "type": "Furniture",
         "name": "Chairs and Recliners",
         "price": 600,
         "img": "asset/img/Furniture/chair2.webp"
     },
     {
         "id": "6",
-        "type": "furniture",
+        "type": "Furniture",
         "name": "Dining Tables",
         "price": 600,
         "img": "asset/img/Furniture/diningTable1.jpg"
@@ -65,14 +65,6 @@ const products = [
     });
   }
   
-  // Function to generate stars based on rating
-  function generateStars(rating) {
-    let stars = '';
-    for (let i = 1; i <= 5; i++) {
-      stars += `<span class="fa fa-star ${i <= rating ? 'checked' : ''}"></span>`;
-    }
-    return stars;
-  }
   
   // Function to update cart quantity in the header
   function updateHeader() {

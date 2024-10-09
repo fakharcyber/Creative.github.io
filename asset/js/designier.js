@@ -1,7 +1,7 @@
 const designers = [
     {
       id: 1,
-      name: "Alice Smith",
+      name: "Alice Shomen",
       specialization: "Interior Design",
       experience: "10 years",
       contactEmail: "alice@example.com",
@@ -19,10 +19,10 @@ const designers = [
     },
     {
       id: 3,
-      name: "Emma Brown",
+      name: "Roman Brown",
       specialization: "Lighting Design",
       experience: "5 years",
-      contactEmail: "emma@example.com",
+      contactEmail: "roman@example.com",
       portfolio: "http://example.com/emma-portfolio",
       image: "asset/img/index/designer3.webp"
     }
@@ -43,8 +43,10 @@ const designers = [
             <h5 class="card-title">${designer.name}</h5>
             <p><b>Specialization:</b> ${designer.specialization}</p>
             <p><b>Experience:</b> ${designer.experience}</p>
-            <a href="${designer.portfolio}" target="_blank" class="btn btn-dark">View Portfolio</a>
-            <button class="button mt-2" onclick="contactDesigner('${designer.contactEmail}')">Contact</button>
+            <div class"designer-btns">
+              <a href="${designer.portfolio}" target="_blank" class="btn btn-outline-dark">View Portfolio</a>
+              <button class="btn btn-outline-light" onclick="contactDesigner('${designer.contactEmail}')">Contact</button>
+            </div>
           </div>
         </div>
       `;
